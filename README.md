@@ -7,9 +7,9 @@ This shield is designed for connecting to STM32 Nucleo-64 boards via Arduino<sup
 
 ### Hardware
 * The GMT177-01 module is used as a display and is compatible in size and pins. The display controller used is **ST7735**. The display data bus is connected to the hardware SPI. PWM can be used  to control the brightness of the screen backlight.
-* Joystick K1-1504SA-03 and one button KLS7-TS6601 can be used for control. Both are connected to 3 General Purpose I / O ports via diodes.
+* Joystick K1-1504SA-03 and one button KLS7-TS6601 can be used for control. Both are connected to 3 General Purpose I/O ports via diodes.
 * EEPROM memory M24C08 can be used to store user data. This IC is connected to the I2C hardware bus.
-* Two LEDs are connected to ports A0 (PA0) and A1 (PA1).
+* Two LEDs are connected to ports A0(PA0) and A1(PA1).
 * A separate button IT-1187-160GM-G is provided to reset the controller.
 
 ### Demo firmware
@@ -42,3 +42,15 @@ Tests performed at SPI clock 11,25 Mbits/s.
 
 ### Schematic
 ![Schematic](scheme/scheme.png)
+
+### Some photo
+Unfortunately, there are currently no rev.4 boards, and the existing rev.3 boards have a small error - the LEDs are connected to RX/D0(PA3) and TX/D1(PA2), which by default are connected to the USART of the on-board ST-LINK/V2-1 programmer. To correct this drawback, two wire are placed on the bottom of the board to ports A0(PA0) and A1(PA1). The boards of the rev.4 are free from this drawback.
+
+#### Front view (rev.3)
+![Front view (rev.3)](photo/01-front-rev.3.jpg)
+
+#### Back view (rev.3)
+![Front view (rev.3)](photo/02-back-rev.3.jpg)
+
+#### Paired with NUCLEO-F446RE with running [demo](https://github.com/virxkane/nucleo-f446re-st7735spi-shield) (rev.3)
+![Front view (rev.3)](photo/03-demo-rev.3.jpg)
