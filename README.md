@@ -17,3 +17,5 @@ Two versions of the demo firmware have been written to work on the NUCLEO-F446RE
 * Using CMSIS: [nucleo-f446re-st7735spi-shield](https://github.com/virxkane/nucleo-f446re-st7735spi-shield)
 * USING HAL: [nucleo-f446re-st7735spi-shield-hal](https://github.com/virxkane/nucleo-f446re-st7735spi-shield-hal)
 
+### Schematic
+![Schematic](scheme/scheme.png)
