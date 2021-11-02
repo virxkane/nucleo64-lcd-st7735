@@ -14,4 +14,6 @@ This shield is designed for connecting to STM32 Nucleo-64 boards via Arduino<sup
 
 ### Demo firmware
 Two versions of the demo firmware have been written to work on the NUCLEO-F446RE and this shield, one using CMSIS, the other using HAL. Both are under BSD-3-Clause License.
+* Using CMSIS: [nucleo-f446re-st7735spi-shield](https://github.com/virxkane/nucleo-f446re-st7735spi-shield)
+* USING HAL: [nucleo-f446re-st7735spi-shield-hal](https://github.com/virxkane/nucleo-f446re-st7735spi-shield-hal)
 
