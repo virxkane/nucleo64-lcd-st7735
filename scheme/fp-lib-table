@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "GMT177-01")(type "KiCad")(uri "${KIPRJMOD}/libs/GMT177-01.pretty")(options "")(descr ""))
+  (lib (name "K1-1504SA-03")(type "KiCad")(uri "${KIPRJMOD}/libs/K1-1504SA-03.pretty")(options "")(descr ""))
+)
